@@ -34,7 +34,7 @@ export default Card;*/
 
 import React from 'react'
 
-function Card({data}) {
+function card({data}) {
   return <div className="col-lg-4">
   <div className="card mb-5 mb-lg-0">
     <div className="card-body">
@@ -59,4 +59,4 @@ function Card({data}) {
 </div>
 }
 
-export default Card
+export default card
